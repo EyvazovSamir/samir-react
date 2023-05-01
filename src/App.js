@@ -1,12 +1,10 @@
-import ToDo from "./ToDo"
+import WebRouting from "./routing"
 
 function App() {
     return (
-        <ToDo />
+        <>
+            <WebRouting />
+        </>
     )
 }
 export default App
-
-
-// import/export [module] {import export} +
-// props, state, component
